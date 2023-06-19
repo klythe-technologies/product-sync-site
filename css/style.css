@@ -927,6 +927,15 @@ header.fix_style .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
   padding: 40px;
   text-align: center;
   transition: 0.4s all;
+  display: grid;
+}
+
+.unique_section .features_inner .feature_card a {
+  align-self: end;
+}
+
+.unique_section .features_inner .feature_card .inner_text p {
+  text-align: justify;
 }
 
 .unique_section .features_inner .feature_card:hover {
@@ -1044,6 +1053,10 @@ header.fix_style .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
   padding-left: 35px;
 }
 
+.analyze_section .analyze_text ul {
+  padding-bottom: 25px;
+}
+
 .analyze_section .analyze_text ul li::before {
   content: "";
   position: absolute;
@@ -1115,7 +1128,7 @@ header.fix_style .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
 
 .collaborate_section .collaborate_text ul li {
   position: relative;
-  padding-left: 115px;
+  padding-left: 35px;
   margin-bottom: 35px;
 }
 
@@ -1123,14 +1136,15 @@ header.fix_style .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
   content: "";
   position: absolute;
   left: 0;
-  width: 90px;
-  height: 90px;
-  background-image: url(../images/new/Syncfollowers.svg);
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/new/right_icon.svg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .collaborate_section .collaborate_text ul li:last-child:before {
-  background-image: url(../images/new/Globallyconnected.svg);
+  background-image: url(../images/new/right_icon.svg);
 }
 
 .collaborate_section .collaborate_text ul li h3 {
@@ -1209,6 +1223,10 @@ header.fix_style .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
 
 .communication_section .communication_text .section_title h2 {
   margin-bottom: 15px;
+}
+
+.communication_section .communication_text ul {
+  padding-bottom: 25px;
 }
 
 .communication_section .communication_text ul li {
@@ -5216,9 +5234,9 @@ footer .top_footer .anim_line span:nth-child(2) {
 
 .white_option .banner_section .banner_text .ban_inner_text h1 {
   color: var(--main_purple);
-  text-transform: uppercase;
-  font-size: 120px;
-  margin-top: 0;
+  /* text-transform: uppercase; */
+  font-size: 80px;
+  margin-top: 10px;
   line-height: 1;
 }
 
